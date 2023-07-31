@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q1j/T7o2xorhURBoTW1IIM1NFTMzccpCQ3n82X3DzyGKOoGZJHGm7mkCFVKI2lc+5TWKZd6eeKYtDyHAL/eFCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gbray\\Desktop\\C#\\C#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gbray\\.nuget\\packages\\exceldna.addin\\1.6.0\\exceldna.addin.1.6.0.nupkg.sha512",
+    "C:\\Users\\gbray\\.nuget\\packages\\exceldna.integration\\1.6.0\\exceldna.integration.1.6.0.nupkg.sha512",
+    "C:\\Users\\gbray\\.nuget\\packages\\microsoft.office.excel\\14.0.4760.1000\\microsoft.office.excel.14.0.4760.1000.nupkg.sha512",
+    "C:\\Users\\gbray\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Office.Excel 14.0.4760.1000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Office.Excel",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}

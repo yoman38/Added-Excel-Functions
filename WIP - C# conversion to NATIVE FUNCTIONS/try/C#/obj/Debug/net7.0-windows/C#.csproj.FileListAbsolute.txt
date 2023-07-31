@@ -1,0 +1,15 @@
+C:\Users\gbray\Desktop\C#\bin\Debug\net7.0-windows\C#.deps.json
+C:\Users\gbray\Desktop\C#\bin\Debug\net7.0-windows\C#.runtimeconfig.json
+C:\Users\gbray\Desktop\C#\bin\Debug\net7.0-windows\C#.dll
+C:\Users\gbray\Desktop\C#\bin\Debug\net7.0-windows\C#.pdb
+C:\Users\gbray\Desktop\C#\bin\Debug\net7.0-windows\Office.dll
+C:\Users\gbray\Desktop\C#\bin\Debug\net7.0-windows\Microsoft.Office.Interop.Excel.dll
+C:\Users\gbray\Desktop\C#\obj\Debug\net7.0-windows\C#.csproj.AssemblyReference.cache
+C:\Users\gbray\Desktop\C#\obj\Debug\net7.0-windows\C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gbray\Desktop\C#\obj\Debug\net7.0-windows\C#.AssemblyInfoInputs.cache
+C:\Users\gbray\Desktop\C#\obj\Debug\net7.0-windows\C#.AssemblyInfo.cs
+C:\Users\gbray\Desktop\C#\obj\Debug\net7.0-windows\C#.csproj.CoreCompileInputs.cache
+C:\Users\gbray\Desktop\C#\obj\Debug\net7.0-windows\C#.csproj.CopyComplete
+C:\Users\gbray\Desktop\C#\obj\Debug\net7.0-windows\C#.dll
+C:\Users\gbray\Desktop\C#\obj\Debug\net7.0-windows\C#.pdb
+C:\Users\gbray\Desktop\C#\obj\Debug\net7.0-windows\C#.genruntimeconfig.cache

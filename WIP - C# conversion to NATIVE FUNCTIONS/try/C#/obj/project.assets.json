@@ -1,0 +1,204 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "ExcelDna.AddIn/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDna.Integration": "[1.6.0]"
+        },
+        "build": {
+          "build/ExcelDna.AddIn.props": {},
+          "build/ExcelDna.AddIn.targets": {}
+        }
+      },
+      "ExcelDna.Integration/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/ExcelDna.Integration.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/ExcelDna.Integration.dll": {}
+        }
+      },
+      "Microsoft.Office.Excel/14.0.4760.1000": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Office.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Office.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExcelDna.AddIn/1.6.0": {
+      "sha512": "A8fzWI++Gf6g4RQGbm5wkFu0w1Xqu7wcds/XhcLi6eELSc6Y0AuPx889V6iuC/zLAetFo9xEVOjjSc4nmJ1o8w==",
+      "type": "package",
+      "path": "exceldna.addin/1.6.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ExcelDna.AddIn.props",
+        "build/ExcelDna.AddIn.targets",
+        "content/ExcelDna-Template.dna",
+        "content/Properties/ExcelDna.Build.props",
+        "exceldna.addin.1.6.0.nupkg.sha512",
+        "exceldna.addin.nuspec",
+        "images/ExcelDna-nu.png",
+        "readme.txt",
+        "tools/net452/EnvDTE.dll",
+        "tools/net452/ExcelDna.AddIn.Tasks.dll",
+        "tools/net452/ExcelDna.Integration.dll",
+        "tools/net452/ExcelDna.xll",
+        "tools/net452/ExcelDna64.xll",
+        "tools/net452/Newtonsoft.Json.dll",
+        "tools/net452/install.ps1",
+        "tools/net452/uninstall.ps1",
+        "tools/net6.0-windows7.0/ExcelDna.AddIn.Tasks.dll",
+        "tools/net6.0-windows7.0/ExcelDna.Integration.dll",
+        "tools/net6.0-windows7.0/ExcelDna.xll",
+        "tools/net6.0-windows7.0/ExcelDna64.xll"
+      ]
+    },
+    "ExcelDna.Integration/1.6.0": {
+      "sha512": "2TMP1gNW5SUrXS3xD6ZauY/I9kgJZlKTi2Fz8clb78yIaS6BJPL3/PbqBXNzeVEBJ/HxKj/8sb9CEpghn8DyVA==",
+      "type": "package",
+      "path": "exceldna.integration/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exceldna.integration.1.6.0.nupkg.sha512",
+        "exceldna.integration.nuspec",
+        "images/ExcelDna-nu.png",
+        "lib/net452/ExcelDna.Integration.dll",
+        "lib/net6.0-windows7.0/ExcelDna.Integration.dll"
+      ]
+    },
+    "Microsoft.Office.Excel/14.0.4760.1000": {
+      "sha512": "A6pxGABJUyirV9w9uqMQfkZFTREIltkqAI+KWG8e5JOZI6kjUTUz+861Yh0mrEW/ZrVzuwBhXdKd4V7rsfC9fg==",
+      "type": "package",
+      "path": "microsoft.office.excel/14.0.4760.1000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Office.dll",
+        "microsoft.office.excel.14.0.4760.1000.nupkg.sha512",
+        "microsoft.office.excel.nuspec"
+      ]
+    },
+    "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+      "sha512": "cuvqi/U5MYSM0gvR2l90q0m/urRgmg69EiwP5VWp1RcaJ0YT5G26Va5LaOZ3KJFc22FNihS5CUjeePUp2YpGQA==",
+      "type": "package",
+      "path": "microsoft.office.interop.excel/15.0.4795.1001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Excel.dll",
+        "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll",
+        "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
+        "microsoft.office.interop.excel.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "ExcelDna.AddIn >= 1.6.0",
+      "Microsoft.Office.Excel >= 14.0.4760.1000",
+      "Microsoft.Office.Interop.Excel >= 15.0.4795.1001"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gbray\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\gbray\\Desktop\\C#\\C#.csproj",
+      "projectName": "C#",
+      "projectPath": "C:\\Users\\gbray\\Desktop\\C#\\C#.csproj",
+      "packagesPath": "C:\\Users\\gbray\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gbray\\Desktop\\C#\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gbray\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "ExcelDna.AddIn": {
+            "target": "Package",
+            "version": "[1.6.0, )"
+          },
+          "Microsoft.Office.Excel": {
+            "target": "Package",
+            "version": "[14.0.4760.1000, )"
+          },
+          "Microsoft.Office.Interop.Excel": {
+            "target": "Package",
+            "version": "[15.0.4795.1001, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Office.Excel 14.0.4760.1000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Office.Excel",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}

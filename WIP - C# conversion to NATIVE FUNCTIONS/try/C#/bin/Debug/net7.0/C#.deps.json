@@ -1,0 +1,85 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "C#/1.0.0": {
+        "dependencies": {
+          "ExcelDna.AddIn": "1.6.0",
+          "Microsoft.Office.Excel": "14.0.4760.1000",
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001"
+        },
+        "runtime": {
+          "C#.dll": {}
+        }
+      },
+      "ExcelDna.AddIn/1.6.0": {
+        "dependencies": {
+          "ExcelDna.Integration": "1.6.0"
+        }
+      },
+      "ExcelDna.Integration/1.6.0": {
+        "runtime": {
+          "lib/net452/ExcelDna.Integration.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
+      "Microsoft.Office.Excel/14.0.4760.1000": {
+        "runtime": {
+          "lib/net20/Office.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.4760.1000"
+          }
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4795.1000"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExcelDna.AddIn/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A8fzWI++Gf6g4RQGbm5wkFu0w1Xqu7wcds/XhcLi6eELSc6Y0AuPx889V6iuC/zLAetFo9xEVOjjSc4nmJ1o8w==",
+      "path": "exceldna.addin/1.6.0",
+      "hashPath": "exceldna.addin.1.6.0.nupkg.sha512"
+    },
+    "ExcelDna.Integration/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2TMP1gNW5SUrXS3xD6ZauY/I9kgJZlKTi2Fz8clb78yIaS6BJPL3/PbqBXNzeVEBJ/HxKj/8sb9CEpghn8DyVA==",
+      "path": "exceldna.integration/1.6.0",
+      "hashPath": "exceldna.integration.1.6.0.nupkg.sha512"
+    },
+    "Microsoft.Office.Excel/14.0.4760.1000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A6pxGABJUyirV9w9uqMQfkZFTREIltkqAI+KWG8e5JOZI6kjUTUz+861Yh0mrEW/ZrVzuwBhXdKd4V7rsfC9fg==",
+      "path": "microsoft.office.excel/14.0.4760.1000",
+      "hashPath": "microsoft.office.excel.14.0.4760.1000.nupkg.sha512"
+    },
+    "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cuvqi/U5MYSM0gvR2l90q0m/urRgmg69EiwP5VWp1RcaJ0YT5G26Va5LaOZ3KJFc22FNihS5CUjeePUp2YpGQA==",
+      "path": "microsoft.office.interop.excel/15.0.4795.1001",
+      "hashPath": "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+    }
+  }
+}
