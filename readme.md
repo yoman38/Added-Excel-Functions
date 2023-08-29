@@ -1,3 +1,6 @@
+
+![Zrzut ekranu 2023-08-29 085635](https://github.com/yoman38/Added-Excel-Functions/assets/124726056/676226bf-957f-4384-acb0-fc6665ed4772)
+
 Info can be found in excel “insert function”
 
 **Excel Functions:**
