@@ -179,7 +179,9 @@ Info can be found in excel “insert function”
 
 40. **colorToHexa** - Returns the hexadecimal color value from a Color value.
 
-41. **hexaToColor** - Returns the Color value of a hexadecimal color (e.g., #00ff00), returns -1 in case of an error.
+Why C# dev in WIP ? C# would allow the user to get native function, i.e hovering '?' would display the description instead of having to click on fx currently.
+
+42. **hexaToColor** - Returns the Color value of a hexadecimal color (e.g., #00ff00), returns -1 in case of an error.
 
 **VBA Functions (With UserForm):**
 
